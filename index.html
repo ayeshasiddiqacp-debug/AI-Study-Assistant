@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Study Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>AI Study Assistant</h1>
+        <p class="subtitle">Ask doubts, summarize notes, generate quiz instantly.</p>
+
+        <textarea id="userInput" placeholder="Type your question or paste notes here..."></textarea>
+
+        <div class="buttons">
+            <button onclick="askAI()">Ask AI</button>
+            <button onclick="summarizeText()">Summarize</button>
+            <button onclick="generateQuiz()">Generate Quiz</button>
+            <button onclick="clearOutput()" class="danger">Clear</button>
+        </div>
+
+        <div class="output-box">
+    <h2>Chat</h2>
+    <div id="output"></div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
